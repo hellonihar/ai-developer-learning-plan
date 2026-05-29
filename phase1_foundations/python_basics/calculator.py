@@ -1,25 +1,34 @@
-import sys
+def add(a, b):
+    return a + b
 
-def calculate(a, b, operator):
-    if operator == "+":
-        return a + b
-    elif operator == "-":
-        return a - b
-    elif operator == "*":
-        return a * b
-    elif operator == "/":
-        if b == 0:
-            return "Error: Division by zero"
-        return a / b
-    else:
-        return "Error: Unsupported operator"
+
+def subtract(a, b):
+    return a - b
+
+
+def multiply(a, b):
+    return a * b
+
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Division by zero not allowed")
+    return a / b
+
 
 if __name__ == "__main__":
-    if len(sys.argv) != 4:
-        print("Usage: python calculator.py <a> <op> <b>")
-        sys.exit(1)
-    a = float(sys.argv[1])
-    op = sys.argv[2]
-    b = float(sys.argv[3])
-    result = calculate(a, b, op)
-    print(f"{a} {op} {b} = {result}")
+    print("Simple CLI Calculator")
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
+    op = input("Choose operation (+, -, *, /): ")
+
+    if op == "+":
+        print("Result:", add(a, b))
+    elif op == "-":
+        print("Result:", subtract(a, b))
+    elif op == "*":
+        print("Result:", multiply(a, b))
+    elif op == "/":
+        print("Result:", divide(a, b))
+    else:
+        print("Invalid operation")

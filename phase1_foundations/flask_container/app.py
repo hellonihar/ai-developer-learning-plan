@@ -1,15 +1,12 @@
-from flask import Flask, jsonify, request
+from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def home():
-    return jsonify({"message": "Hello from Flask!"})
+    return {"message": "Hello, AI Developer!"}
 
-@app.route("/api/echo", methods=["POST"])
-def echo():
-    data = request.get_json()
-    return jsonify({"echo": data})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5000)
