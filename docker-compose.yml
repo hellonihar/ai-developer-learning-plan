@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  flask-app:
+    build: phase1_foundations/flask_container
+    ports:
+      - "5000:5000"
+
+  fastapi-service:
+    build: phase5_deployment/fastapi_service
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+
+  monitoring:
+    build: phase5_deployment/monitoring_dashboard
+    ports:
+      - "8501:8501"
+    depends_on:
+      - fastapi-service

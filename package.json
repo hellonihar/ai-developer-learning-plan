@@ -1,0 +1,12 @@
+{
+  "name": "ai-developer-learning-plan",
+  "version": "1.0.0",
+  "description": "Structured AI engineering curriculum with hands-on projects",
+  "private": true,
+  "scripts": {
+    "lint": "black . && ruff check .",
+    "test": "pytest",
+    "jupyter": "jupyter notebook"
+  },
+  "devDependencies": {}
+}
