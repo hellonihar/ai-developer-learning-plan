@@ -1,36 +1,35 @@
 # Core
-python-dotenv==1.1.0
-requests==2.32.3
-pydantic==2.10.0
+python-dotenv
+requests
+pydantic
 
 # ML / Data
-numpy==2.2.0
-pandas==2.2.3
-scikit-learn==1.6.0
-matplotlib==3.9.3
+numpy
+pandas
+scikit-learn
+matplotlib
 
 # LLM / RAG
-openai==1.55.0
-langchain==0.3.14
-langchain-community==0.3.15
-langchain-openai==0.3.0
-faiss-cpu==1.9.0
-chromadb==0.5.23
-pinecone[grpc]==5.4.0
+openai
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+chromadb
+pinecone[grpc]
 
 # Web / API
-flask==3.1.0
-fastapi==0.115.0
-uvicorn==0.32.0
-docker==7.1.0
+flask
+fastapi
+uvicorn
+docker
 
 # Testing & Linting
-pytest==8.3.4
-black==24.10.0
-ruff==0.8.0
+pytest
+black
+ruff
 
 # Jupyter
-jupyter==1.1.1
-ipykernel==6.29.5
-nbformat==5.10.4
-flask==3.1.0
+jupyter
+ipykernel
+nbformat
