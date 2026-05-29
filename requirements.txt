@@ -10,10 +10,13 @@ scikit-learn
 matplotlib
 
 # LLM / RAG
+groq
 openai
 langchain
 langchain-community
+langchain-groq
 langchain-openai
+sentence-transformers
 faiss-cpu
 chromadb
 pinecone[grpc]

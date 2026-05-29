@@ -1,7 +1,9 @@
 import os
-from openai import OpenAI
+from groq import Groq
+from dotenv import load_dotenv
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+load_dotenv()
+client = Groq()
 
 FAQ = {
     "hours": "We are open Mon-Fri 9am-5pm.",
@@ -9,19 +11,24 @@ FAQ = {
     "shipping": "Free shipping on orders over $50.",
 }
 
+
 def answer(question):
     q = question.lower()
     for key in FAQ:
         if key in q:
             return FAQ[key]
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="llama-3.3-70b-versatile",
         messages=[
-            {"role": "system", "content": "You are a helpful FAQ assistant. Answer concisely."},
+            {
+                "role": "system",
+                "content": "You are a helpful FAQ assistant. Answer concisely.",
+            },
             {"role": "user", "content": question},
         ],
     )
     return response.choices[0].message.content
+
 
 if __name__ == "__main__":
     while True:
