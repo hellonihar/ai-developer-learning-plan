@@ -12,6 +12,7 @@ logger = logging.getLogger(__name__)
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-120b")
+MAX_CONTRACT_CHARS = int(os.getenv("MAX_CONTRACT_CHARS", "18000"))
 
 SYSTEM_PROMPT = """You are an expert contract review assistant. Analyze the given contract and return a JSON response with exactly these keys:
 - risk_summary: A concise 2-3 sentence summary of the key risks found (string)
@@ -46,6 +47,18 @@ def analyze_contract(
     voice_note: str = "",
 ) -> tuple[str, int, list[ClauseHighlight], list[RecommendedRevision]]:
     logger.info("Starting contract analysis...")
+
+    if len(contract_text) > MAX_CONTRACT_CHARS:
+        logger.warning(
+            "Contract text too long (%d chars); truncating to %d chars to fit model limits.",
+            len(contract_text),
+            MAX_CONTRACT_CHARS,
+        )
+        contract_text = (
+            contract_text[:MAX_CONTRACT_CHARS]
+            + "\n\n[...contract truncated due to size limit... ]"
+        )
+
     user_prompt = _build_user_prompt(contract_text, instructions, voice_note)
 
     response = client.chat.completions.create(
