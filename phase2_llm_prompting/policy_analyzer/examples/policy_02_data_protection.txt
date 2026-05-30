@@ -1,0 +1,109 @@
+DATA PROTECTION AND PRIVACY POLICY
+
+Policy Number: DPP-2024-003
+Effective Date: March 15, 2024
+Applicable To: All employees, contractors, and third-party data processors of TechNova Inc.
+
+---
+
+1. SCOPE AND PURPOSE
+
+This Policy establishes the requirements for the collection, processing, storage, transfer, and disposal of personal data in compliance with GDPR (EU Regulation 2016/679), CCPA (California Civil Code Section 1798.100), and PIPEDA (Canada).
+
+---
+
+2. DATA CLASSIFICATION
+
+All data shall be classified into one of three tiers:
+
+Tier 1 - Public Data: Information intended for public dissemination. No access controls required.
+
+Tier 2 - Internal Data: Confidential business information not approved for public release. Requires role-based access control (RBAC).
+
+Tier 3 - Restricted Data: Personal identifiable information (PII), protected health information (PHI), financial records, or any data subject to regulatory protection. Requires encryption at rest (AES-256) and in transit (TLS 1.2+), multi-factor authentication, and full audit logging.
+
+---
+
+3. DATA SUBJECT RIGHTS
+
+3.1 Right of Access
+Data subjects may request confirmation of whether their personal data is being processed and access to their data. Requests must be fulfilled within 30 calendar days.
+
+3.2 Right to Erasure
+Data subjects may request deletion of their personal data. The Company shall comply within 30 calendar days unless retention is required by applicable law or ongoing legal proceedings.
+
+3.3 Right to Data Portability
+Data subjects may request transfer of their data to another controller in a structured, commonly used, machine-readable format.
+
+3.4 Right to Object
+Data subjects may object to processing of their data for direct marketing purposes. Such objections shall be honored immediately and without exception.
+
+---
+
+4. DATA BREACH PROCEDURES
+
+4.1 Breach Notification
+Any employee who discovers or suspects a data breach must report the incident to the Data Protection Officer (DPO) within 2 hours.
+
+4.2 External Notification
+The DPO shall notify the relevant supervisory authority within 72 hours of becoming aware of a breach that is likely to result in a risk to the rights and freedoms of natural persons.
+
+4.3 Documentation
+All breaches, including near-misses, shall be documented in the Breach Register maintained by the DPO. Documentation must include the root cause, impact assessment, remediation steps, and lessons learned.
+
+---
+
+5. THIRD-PARTY PROCESSORS
+
+5.1 Due Diligence
+Prior to engaging any third-party data processor, the Company shall conduct a data protection impact assessment (DPIA) and verify the processor's compliance with ISO 27001 or equivalent certification.
+
+5.2 Data Processing Agreements
+All third-party processors must execute a Data Processing Agreement (DPA) that includes:
+a) Clear instructions for data processing;
+b) Confidentiality obligations;
+c) Security measures at least equivalent to those in Section 2;
+d) Assistance with data subject requests;
+e) Notification obligations in case of breach;
+f) Right to audit;
+g) Deletion or return of data upon termination.
+
+5.3 Sub-processing
+Third-party processors may not engage sub-processors without prior written authorization from the Company. Any authorized sub-processor shall be subject to equivalent contractual obligations.
+
+---
+
+6. DATA RETENTION AND DISPOSAL
+
+6.1 Retention Periods
+Personal data shall not be retained longer than necessary. Standard retention periods are:
+- Employee records: 7 years after termination
+- Customer records: 5 years after last interaction
+- Marketing data: 2 years
+- Website analytics: 26 months
+
+6.2 Secure Disposal
+Data beyond its retention period must be securely disposed of using methods appropriate to the data tier: degaussing or physical destruction for physical media; cryptographic erasure or secure overwrite (DoD 5220.22-M standard) for digital data.
+
+---
+
+7. ENFORCEMENT AND PENALTIES
+
+Violation of this Policy may result in disciplinary action up to and including termination of employment and legal action. Violations by third-party processors may result in contract termination and reporting to the relevant supervisory authority.
+
+---
+
+8. REVIEW AND AMENDMENT
+
+This Policy shall be reviewed annually by the Data Protection Officer and the Chief Information Security Officer. Amendments require approval from the Board of Directors.
+
+---
+
+APPENDIX A - ACCEPTABLE ENCRYPTION STANDARDS
+
+| Algorithm | Key Length | Use Case |
+|-----------|-----------|----------|
+| AES | 256-bit | Data at rest |
+| RSA | 2048-bit | Key exchange |
+| ECDSA | P-256 | Digital signatures |
+| TLS | 1.2 minimum | Data in transit |

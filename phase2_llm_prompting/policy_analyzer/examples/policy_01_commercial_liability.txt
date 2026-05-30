@@ -1,0 +1,85 @@
+COMMERCIAL GENERAL LIABILITY INSURANCE POLICY
+
+Policy Number: CGL-2024-78412
+Insurer: NorthStar Insurance Group
+Named Insured: Acme Manufacturing Corp.
+Policy Period: January 1, 2024 - January 1, 2025
+
+---
+
+SECTION I - COVERAGE AGREEMENTS
+
+A. BODILY INJURY AND PROPERTY DAMAGE LIABILITY
+
+The Insurer will pay those sums that the Insured becomes legally obligated to pay as damages because of "bodily injury" or "property damage" to which this insurance applies. The Insurer will have the right and duty to defend the Insured against any "suit" seeking those damages.
+
+B. PERSONAL AND ADVERTISING INJURY LIABILITY
+
+The Insurer will pay those sums that the Insured becomes legally obligated to pay as damages because of "personal and advertising injury" to which this insurance applies.
+
+---
+
+SECTION II - EXCLUSIONS
+
+THIS INSURANCE DOES NOT APPLY TO:
+
+2.1 Contractual Liability
+"Bodily injury" or "property damage" for which the Insured is obligated to pay as damages by reason of the assumption of liability in a contract or agreement. This exclusion does not apply to liability for damages assumed in a contract that is an "insured contract."
+
+2.2 Pollution Exclusion
+"Bodily injury" or "property damage" arising out of the actual, alleged, or threatened discharge, dispersal, seepage, migration, release, or escape of pollutants. This exclusion applies regardless of whether the Insured knew of or was responsible for the discharge.
+
+2.3 Cyber Exclusion
+Any loss, damage, claim, or expense arising directly or indirectly from:
+a) The use of any computer, computer system, computer software program, malicious code, computer virus, or hacking activity;
+b) Unauthorized access to or disclosure of any data or information;
+c) Any act of cyber extortion, ransomware, or denial of service attack.
+This exclusion applies regardless of any other cause or event that contributes concurrently or in any sequence to the loss.
+
+2.4 Employment Practices Exclusion
+"Bodily injury" to any employee of the Insured arising out of or in the course of employment by the Insured. This exclusion applies to:
+a) Refusal to employ;
+b) Wrongful termination;
+c) Harassment, humiliation, or discrimination;
+d) Failure to promote or demotion.
+
+2.5 Product Recall Exclusion
+Any loss, cost, or expense incurred by the Insured or others due to the withdrawal, recall, inspection, repair, replacement, adjustment, removal, or disposal of any product or work.
+
+---
+
+SECTION III - CONDITIONS
+
+3.1 Duty to Cooperate
+The Insured shall cooperate with the Insurer in the investigation, settlement, or defense of any claim or suit. Failure to cooperate may result in forfeiture of coverage.
+
+3.2 Notice of Occurrence
+The Insured shall give the Insurer written notice of any "occurrence" as soon as practicable, but no later than 60 days after the end of the policy period. Late notice may prejudice coverage.
+
+3.3 Arbitration
+Any dispute arising out of or relating to this Policy shall be submitted to binding arbitration administered by the American Arbitration Association under its Commercial Rules. The arbitration shall take place in New York, New York. Each party shall bear its own costs and legal fees.
+
+3.4 Records and Access
+The Insured shall maintain accurate books and records in accordance with GAAP. The Insurer shall have the right to inspect the Insured's premises, operations, and records at any reasonable time upon 48 hours' notice.
+
+---
+
+SECTION IV - DEFINITIONS
+
+4.1 "Bodily injury" means bodily injury, sickness, or disease sustained by a person, including death resulting from any of these at any time.
+
+4.2 "Occurrence" means an accident, including continuous or repeated exposure to substantially the same general harmful conditions.
+
+4.3 "Pollutants" means any solid, liquid, gaseous, or thermal irritant or contaminant, including smoke, vapor, soot, fumes, acids, alkalis, chemicals, and waste.
+
+4.4 "Insured contract" means any contract under which the Insured assumes the tort liability of another party to pay for "bodily injury" or "property damage" to a third person or organization.
+
+---
+
+ENDORSEMENTS
+
+Endorsement 1 - Cyber Liability Exclusion Amendment
+The Cyber Exclusion (Section 2.3) is amended to include a limited carve-back for losses arising from a non-cyber event that follows a cyber incident, provided the Insured maintains minimum cybersecurity controls as defined by NIST SP 800-53.
+
+Endorsement 2 - Waiver of Subrogation
+The Insurer waives any right of subrogation against the Insured's subsidiaries and affiliated entities.

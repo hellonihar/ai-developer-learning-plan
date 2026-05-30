@@ -1,0 +1,10 @@
+streamlit
+langchain==0.3.17
+langchain-core<1
+langchain-text-splitters
+langchain-community
+chromadb
+sentence-transformers
+pymupdf
+langchain-openai
+torchvision
