@@ -2,6 +2,8 @@
 
 Cluster movies by features and get content-based recommendations. Built with Streamlit and scikit-learn.
 
+![App Screenshot](assets/app_screenshot.png)
+
 ## Quick Start
 
 ```bash
